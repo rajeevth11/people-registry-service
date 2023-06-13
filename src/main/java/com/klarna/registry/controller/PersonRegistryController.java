@@ -65,6 +65,7 @@ public class PersonRegistryController
 
     /**
      * Get the oldest child name for the specified person by SSN
+     *
      * @param socialSecurityNumber of type String
      * @return of type Result
      */

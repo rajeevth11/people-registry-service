@@ -5,6 +5,11 @@ import com.klarna.registry.domain.Result;
 
 public class PersonValidator
 {
+    /**
+     * Validate the Person entity
+     * @param person of type Person
+     * @return of tyep Result
+     */
     public static Result validatePerson(Person person)
     {
         if (person.getSocialSecurityNumber() == null || person.getSocialSecurityNumber().isEmpty())
